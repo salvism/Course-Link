@@ -1,0 +1,116 @@
+header {
+  .header {
+    .btn-blue {
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 0.2px;
+      width: 100px;
+      height: 42px;
+      border-radius: 5px;
+      background-color: #23a6f0;
+    }
+    .header-top {
+      .nav {
+        height: 58px;
+        width: 815px;
+        li {
+          a {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+          }
+        }
+        a {
+          color: #ffffff;
+        }
+        .nav-logo {
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 32px;
+          letter-spacing: 0.1px;
+          padding: 20px 0px 0px 120px;
+        }
+        .nav-links {
+          padding: 20px 0px 0px 70px;
+        }
+        .nav-reg {
+          padding: 20px 0px 0px 170px;
+
+          .btn-item {
+            padding: 15px 15px 15px 15px;
+          }
+        }
+      }
+    }
+
+    .header-bottom {
+      height: 682px;
+      margin-top: 95px;
+      .header-left {
+        margin-top: 55px;
+        h5 {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          color: #23a6f0;
+        }
+        h1 {
+          font-weight: 700;
+          font-size: 58px;
+          line-height: 80px;
+          letter-spacing: 0.2px;
+          color: #ffffff;
+          margin: 20px 0px 20px -5px;
+        }
+        h4 {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0.2px;
+          color: #ffffff;
+          width: 400px;
+        }
+      }
+      .header-img {
+        width: 100%;
+        img {
+          width: 610px;
+        }
+      }
+      .btns {
+        button{
+            height: 50px;
+        }
+        .btn-left,
+        .btn-right {
+          border-radius: 5px;
+        }
+        .btn-left {
+          button {
+            color: #ffffff;
+            font-size: 13px;
+            line-height: 22px;
+            letter-spacing: 0.2px;
+          }
+        }
+        .btn-right {
+          .btn-blue {
+            background-color: #252b42 !important;
+            border-color: #23A6F0;
+          }
+        }
+        .btn-blue {
+          width: 170px;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 22px;
+          letter-spacing: 0.2px;
+          color: #23a6f0;
+        }
+      }
+    }
+  }
+}
