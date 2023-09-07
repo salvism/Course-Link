@@ -99,41 +99,11 @@ header .header .header-bottom .btns .btn-blue {
   color: #23a6f0;
 }
 
-#packages {
-  height: 849px;
-}
 #packages .packages .pack-left {
   margin-top: 250px;
 }
 #packages .packages .pack-right {
   margin-top: 100px;
-}
-#packages .packages .red-line {
-  width: 94px;
-  height: 7px;
-  background-color: #e74040;
-}
-#packages .packages h2 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-  letter-spacing: 0.2px;
-  color: #ffffff;
-}
-#packages .packages p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  color: #ffffff;
-  width: 351px;
-}
-#packages .packages a {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-  color: #23a6f0;
 }
 #packages .packages .card {
   width: 237px;
@@ -178,6 +148,56 @@ header .header .header-bottom .btns .btn-blue {
 }
 #packages .packages .card-third {
   margin-left: -100px;
+}
+
+#packages,
+#courses {
+  height: 849px;
+}
+#packages .red-line,
+#courses .red-line {
+  width: 94px;
+  height: 7px;
+  background-color: #e74040;
+}
+#packages h2,
+#courses h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+#packages p,
+#courses p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  width: 351px;
+}
+#packages a,
+#courses a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+
+#courses .course-right {
+  margin-top: 250px;
+  margin-left: 50px;
+}
+#courses .course-left {
+  margin-top: 100px;
+}
+#courses .couese-img {
+  width: 100%;
+}
+#courses .couese-img img {
+  width: 610px;
 }
 
 * {

@@ -1,7 +1,5 @@
 // packages section start
-
 #packages {
-  height: 849px;
   .packages {
     .pack-left {
       margin-top: 250px;
@@ -10,35 +8,6 @@
       margin-top: 100px;
     }
 
-    .red-line {
-      width: 94px;
-      height: 7px;
-      background-color: #e74040;
-    }
-
-    h2 {
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 50px;
-      letter-spacing: 0.2px;
-      color: #ffffff;
-    }
-
-    p {
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 20px;
-      letter-spacing: 0.2px;
-      color: #ffffff;
-      width: 351px;
-    }
-    a {
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 24px;
-      letter-spacing: 0.2px;
-      color: #23a6f0;
-    }
     .card {
       width: 237px;
       height: 292px;
@@ -88,5 +57,58 @@
     }
   }
 }
-
 // packages section end
+
+#packages,
+#courses {
+  height: 849px;
+
+  .red-line {
+    width: 94px;
+    height: 7px;
+    background-color: #e74040;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    width: 351px;
+  }
+  a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #23a6f0;
+  }
+}
+
+// courses section start
+#courses {
+  .course-right {
+    margin-top: 250px;
+    margin-left: 50px;
+  }
+  .course-left {
+    margin-top: 100px;
+  }
+
+  .couese-img {
+    width: 100%;
+    img {
+      width: 610px;
+    }
+  }
+}
+// courses section end
