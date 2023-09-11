@@ -378,7 +378,15 @@ header .header .header-bottom .btns .btn-blue {
   width: 16px;
   height: 16px;
   flex-shrink: 0;
-  color: rgb(35, 166, 240);
+}
+#products .pro-cards .pro-card .card-bottom .fa-clock {
+  color: #23A6F0;
+}
+#products .pro-cards .pro-card .card-bottom .fa-chart-bar {
+  color: #e77c40;
+}
+#products .pro-cards .pro-card .card-bottom .fa-chart-line {
+  color: #40bb15;
 }
 #products .pro-cards .pro-card .card-bottom span {
   color: #737373;
@@ -386,6 +394,25 @@ header .header .header-bottom .btns .btn-blue {
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
+  letter-spacing: 0.2px;
+}
+#products .pro-cards .pro-card .card-button {
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 37px;
+  border: 1px solid #23a6f0;
+}
+#products .pro-cards .pro-card .card-button button {
+  border: none;
+  background: #ffffff;
+}
+#products .pro-cards .pro-card .card-button button a {
+  color: #23a6f0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
   letter-spacing: 0.2px;
 }
 #products .pro-cards .pro-card-img {

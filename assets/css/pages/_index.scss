@@ -303,7 +303,15 @@
           width: 16px;
           height: 16px;
           flex-shrink: 0;
-          color: rgba(35, 166, 240, 1);
+        }
+        .fa-clock {
+          color: #23A6F0;
+        }
+        .fa-chart-bar {
+          color: #e77c40;
+        }
+        .fa-chart-line {
+          color: #40bb15;
         }
         span {
           color: #737373;
@@ -312,6 +320,26 @@
           font-weight: 400;
           line-height: 16px;
           letter-spacing: 0.2px;
+        }
+      }
+
+      .card-button {
+        padding: 10px 20px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 37px;
+        border: 1px solid #23a6f0;
+        button {
+          border: none;
+          background: #ffffff;
+          a {
+            color: #23a6f0;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+          }
         }
       }
     }
