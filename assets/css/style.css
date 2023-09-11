@@ -240,6 +240,45 @@ header .header .header-bottom .btns .btn-blue {
   border-radius: 0px;
   border: 0px;
 }
+#products .pro-cards .pro-card .pro-card-img {
+  position: relative;
+  width: 323px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 0px;
+}
+#products .pro-cards .pro-card .sale {
+  position: absolute;
+  display: inline-flex;
+  padding: 0px 10px;
+  align-items: center;
+  border-radius: 3px;
+  background: #e74040;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#products .pro-cards .pro-card .pro-actions {
+  position: absolute;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 236px 104px 24px 104px;
+}
+#products .pro-cards .pro-card .pro-actions .pro-icon {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 44.786px;
+  background: #ffffff;
+}
 #products .pro-cards .pro-card .pro-card-body {
   padding: 25px 25px 35px 25px;
   align-items: flex-start;
@@ -336,59 +375,27 @@ header .header .header-bottom .btns .btn-blue {
   line-height: 24px;
   letter-spacing: 0.1px;
 }
-#products .pro-cards .pro-card .sale {
-  position: absolute;
-  display: inline-flex;
-  padding: 0px 10px;
-  align-items: center;
-  border-radius: 3px;
-  background: #e74040;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-  margin-top: 20px;
-  margin-left: 30px;
-}
-#products .pro-cards .pro-card .pro-actions {
-  position: absolute;
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin: 236px 104px 24px 104px;
-}
-#products .pro-cards .pro-card .pro-actions .pro-icon {
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  border-radius: 44.786px;
-  background: #ffffff;
-}
-#products .pro-cards .pro-card .card-bottom {
+#products .pro-cards .pro-card .pro-card-body .card-bottom {
   padding: 15px 0px;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
 }
-#products .pro-cards .pro-card .card-bottom i {
+#products .pro-cards .pro-card .pro-card-body .card-bottom i {
   width: 16px;
   height: 16px;
   flex-shrink: 0;
 }
-#products .pro-cards .pro-card .card-bottom .fa-clock {
-  color: #23A6F0;
+#products .pro-cards .pro-card .pro-card-body .card-bottom .fa-clock {
+  color: #23a6f0;
 }
-#products .pro-cards .pro-card .card-bottom .fa-chart-bar {
+#products .pro-cards .pro-card .pro-card-body .card-bottom .fa-chart-bar {
   color: #e77c40;
 }
-#products .pro-cards .pro-card .card-bottom .fa-chart-line {
+#products .pro-cards .pro-card .pro-card-body .card-bottom .fa-chart-line {
   color: #40bb15;
 }
-#products .pro-cards .pro-card .card-bottom span {
+#products .pro-cards .pro-card .pro-card-body .card-bottom span {
   color: #737373;
   font-size: 12px;
   font-style: normal;
@@ -396,31 +403,24 @@ header .header .header-bottom .btns .btn-blue {
   line-height: 16px;
   letter-spacing: 0.2px;
 }
-#products .pro-cards .pro-card .card-button {
+#products .pro-cards .pro-card .pro-card-body .card-button {
   padding: 10px 20px;
   align-items: center;
   gap: 10px;
   border-radius: 37px;
   border: 1px solid #23a6f0;
 }
-#products .pro-cards .pro-card .card-button button {
+#products .pro-cards .pro-card .pro-card-body .card-button button {
   border: none;
   background: #ffffff;
 }
-#products .pro-cards .pro-card .card-button button a {
+#products .pro-cards .pro-card .pro-card-body .card-button button a {
   color: #23a6f0;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.2px;
-}
-#products .pro-cards .pro-card-img {
-  position: relative;
-  width: 323px;
-  height: 300px;
-  flex-shrink: 0;
-  border-radius: 0px;
 }
 
 * {
