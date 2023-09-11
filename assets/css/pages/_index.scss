@@ -385,7 +385,12 @@
 // comments section start
 #comments {
   .comment-card {
-    width: 348px;
+    display: flex;
+    width: 309px;
+    margin-right: 15px;
+    margin-left: 10px;
+    flex-direction: column;
+    align-items: center;
     padding: 25px;
     background-color: #ffffff;
     .card-content {
@@ -422,3 +427,8 @@
   }
 }
 // comments section end
+
+// joinus section start
+#joinus {
+}
+// joinus section end
