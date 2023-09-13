@@ -38,7 +38,7 @@ header .header .header-top .nav .nav-reg .btn-item {
   padding: 15px 15px 15px 15px;
 }
 header .header .header-bottom {
-  height: 682px;
+  height: 600px;
   margin-top: 95px;
 }
 header .header .header-bottom .header-left {
@@ -223,7 +223,7 @@ footer .footer-bottom p {
 
 #packages,
 #courses {
-  height: 849px;
+  height: 750px;
 }
 #packages .red-line,
 #courses .red-line {
@@ -272,8 +272,6 @@ footer .footer-bottom p {
 }
 
 #products {
-  height: 1236px;
-  margin-top: 160px;
   margin-bottom: 160px;
 }
 #products .pro-cards {
@@ -564,7 +562,7 @@ footer .footer-bottom p {
 #joinus {
   display: flex;
   width: 1050px;
-  padding: 160px 0px;
+  padding: 120px 0px;
   flex-direction: column;
   align-items: center;
   gap: 80px;
@@ -604,7 +602,7 @@ footer .footer-bottom p {
 }
 #joinus .subscribe {
   width: 688px;
-  height: 363px;
+  height: 270px;
   padding-bottom: 0px;
   margin-left: 190px;
 }
