@@ -116,12 +116,13 @@
 
   .pro-cards {
     align-items: flex-start;
-    gap: 5px;
+    gap: 15px;
     margin-top: 80px;
     flex-wrap: nowrap;
     .pro-card {
+      cursor: pointer;
       display: flex;
-      width: 323px;
+      width: 313px;
       flex-direction: column;
       align-items: flex-start;
       border-radius: 0px;
@@ -129,8 +130,8 @@
 
       .pro-card-img {
         position: relative;
-        width: 323px;
-        height: 300px;
+        width: 313px;
+        height: 270px;
         flex-shrink: 0;
         border-radius: 0px;
       }
@@ -159,7 +160,7 @@
         display: inline-flex;
         align-items: flex-start;
         gap: 10px;
-        margin: 236px 104px 24px 104px;
+        margin: 206px 86.5px 2px 86.5px;
 
         .pro-icon {
           width: 40px;
@@ -171,7 +172,7 @@
       }
 
       .pro-card-body {
-        padding: 25px 25px 35px 25px;
+        padding: 10px 25px 25px 25px;
         align-items: flex-start;
         gap: 10px;
         align-self: stretch;
@@ -276,7 +277,7 @@
         }
 
         .card-bottom {
-          padding: 15px 0px;
+          padding-bottom: 15px;
           justify-content: space-between;
           align-items: center;
           align-self: stretch;

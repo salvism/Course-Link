@@ -12,11 +12,36 @@ header .header .header-top .nav {
   height: 58px;
   width: 815px;
 }
+header .header .header-top .nav li {
+  display: table-cell;
+  position: relative;
+  padding: 15px 0;
+}
 header .header .header-top .nav li a {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0.2px;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  position: relative;
+  color: #fff !important;
+}
+header .header .header-top .nav li a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+header .header .header-top .nav li a:hover:after {
+  width: 100%;
+  left: 0;
 }
 header .header .header-top .nav a {
   color: #ffffff;
@@ -88,7 +113,7 @@ header .header .header-bottom .btns .btn-left button {
 }
 header .header .header-bottom .btns .btn-right .btn-blue {
   background-color: #252b42 !important;
-  border-color: #23A6F0;
+  border-color: #23a6f0;
 }
 header .header .header-bottom .btns .btn-blue {
   width: 170px;
@@ -276,13 +301,14 @@ footer .footer-bottom p {
 }
 #products .pro-cards {
   align-items: flex-start;
-  gap: 5px;
+  gap: 15px;
   margin-top: 80px;
   flex-wrap: nowrap;
 }
 #products .pro-cards .pro-card {
+  cursor: pointer;
   display: flex;
-  width: 323px;
+  width: 313px;
   flex-direction: column;
   align-items: flex-start;
   border-radius: 0px;
@@ -290,8 +316,8 @@ footer .footer-bottom p {
 }
 #products .pro-cards .pro-card .pro-card-img {
   position: relative;
-  width: 323px;
-  height: 300px;
+  width: 313px;
+  height: 270px;
   flex-shrink: 0;
   border-radius: 0px;
 }
@@ -318,7 +344,7 @@ footer .footer-bottom p {
   display: inline-flex;
   align-items: flex-start;
   gap: 10px;
-  margin: 236px 104px 24px 104px;
+  margin: 206px 86.5px 2px 86.5px;
 }
 #products .pro-cards .pro-card .pro-actions .pro-icon {
   width: 40px;
@@ -328,7 +354,7 @@ footer .footer-bottom p {
   background: #ffffff;
 }
 #products .pro-cards .pro-card .pro-card-body {
-  padding: 25px 25px 35px 25px;
+  padding: 10px 25px 25px 25px;
   align-items: flex-start;
   gap: 10px;
   align-self: stretch;
@@ -424,7 +450,7 @@ footer .footer-bottom p {
   letter-spacing: 0.1px;
 }
 #products .pro-cards .pro-card .pro-card-body .card-bottom {
-  padding: 15px 0px;
+  padding-bottom: 15px;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;

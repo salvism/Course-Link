@@ -15,11 +15,40 @@ header {
         height: 58px;
         width: 815px;
         li {
+          display: table-cell;
+          position: relative;
+          padding: 15px 0;
+
           a {
             font-size: 14px;
             font-weight: 700;
             line-height: 24px;
-            letter-spacing: 0.2px;
+
+            text-decoration: none;
+            letter-spacing: 0.15em;
+
+            display: inline-block;
+            position: relative;
+            color: #fff !important;
+
+            &:after {
+                background: none repeat scroll 0 0 transparent;
+                bottom: 0;
+                content: "";
+                display: block;
+                height: 2px;
+                left: 50%;
+                position: absolute;
+                background: #fff;
+                transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                width: 0;
+              }
+          
+              &:hover:after {
+
+                width: 100%;
+                left: 0;
+              }
           }
         }
         a {
@@ -81,8 +110,8 @@ header {
         }
       }
       .btns {
-        button{
-            height: 50px;
+        button {
+          height: 50px;
         }
         .btn-left,
         .btn-right {
@@ -99,7 +128,7 @@ header {
         .btn-right {
           .btn-blue {
             background-color: #252b42 !important;
-            border-color: #23A6F0;
+            border-color: #23a6f0;
           }
         }
         .btn-blue {
