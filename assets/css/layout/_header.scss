@@ -32,23 +32,22 @@ header {
             color: #fff !important;
 
             &:after {
-                background: none repeat scroll 0 0 transparent;
-                bottom: 0;
-                content: "";
-                display: block;
-                height: 2px;
-                left: 50%;
-                position: absolute;
-                background: #fff;
-                transition: width 0.3s ease 0s, left 0.3s ease 0s;
-                width: 0;
-              }
-          
-              &:hover:after {
+              background: none repeat scroll 0 0 transparent;
+              bottom: 0;
+              content: "";
+              display: block;
+              height: 2px;
+              left: 50%;
+              position: absolute;
+              background: #fff;
+              transition: width 0.3s ease 0s, left 0.3s ease 0s;
+              width: 0;
+            }
 
-                width: 100%;
-                left: 0;
-              }
+            &:hover:after {
+              width: 100%;
+              left: 0;
+            }
           }
         }
         a {
@@ -78,6 +77,7 @@ header {
       height: 600px;
       margin-top: 95px;
       .header-left {
+        
         margin-top: 55px;
         h5 {
           font-size: 16px;
@@ -113,22 +113,13 @@ header {
         button {
           height: 50px;
         }
-        .btn-left,
-        .btn-right {
-          border-radius: 5px;
-        }
-        .btn-left {
+        .btn-header {
           button {
             color: #ffffff;
             font-size: 13px;
             line-height: 22px;
             letter-spacing: 0.2px;
-          }
-        }
-        .btn-right {
-          .btn-blue {
-            background-color: #252b42 !important;
-            border-color: #23a6f0;
+            border-radius: 5px;
           }
         }
         .btn-blue {
@@ -138,6 +129,12 @@ header {
           line-height: 22px;
           letter-spacing: 0.2px;
           color: #23a6f0;
+
+          &:hover {
+            background-color: #252b42 !important;
+            border-color: #23a6f0;
+            color: #23a6f0;
+          }
         }
       }
     }

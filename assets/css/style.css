@@ -101,19 +101,12 @@ header .header .header-bottom .header-img img {
 header .header .header-bottom .btns button {
   height: 50px;
 }
-header .header .header-bottom .btns .btn-left,
-header .header .header-bottom .btns .btn-right {
-  border-radius: 5px;
-}
-header .header .header-bottom .btns .btn-left button {
+header .header .header-bottom .btns .btn-header button {
   color: #ffffff;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.2px;
-}
-header .header .header-bottom .btns .btn-right .btn-blue {
-  background-color: #252b42 !important;
-  border-color: #23a6f0;
+  border-radius: 5px;
 }
 header .header .header-bottom .btns .btn-blue {
   width: 170px;
@@ -121,6 +114,11 @@ header .header .header-bottom .btns .btn-blue {
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+header .header .header-bottom .btns .btn-blue:hover {
+  background-color: #252b42 !important;
+  border-color: #23a6f0;
   color: #23a6f0;
 }
 
