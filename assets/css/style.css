@@ -304,6 +304,8 @@ footer .footer-bottom p {
   flex-wrap: nowrap;
 }
 #products .pro-cards .pro-card {
+  transition: all 1s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   cursor: pointer;
   display: flex;
   width: 313px;
@@ -311,6 +313,10 @@ footer .footer-bottom p {
   align-items: flex-start;
   border-radius: 0px;
   border: 0px;
+}
+#products .pro-cards .pro-card:hover {
+  transition: all 0.5s;
+  transform: translateY(-20px);
 }
 #products .pro-cards .pro-card .pro-card-img {
   position: relative;
@@ -350,6 +356,12 @@ footer .footer-bottom p {
   padding: 10px;
   border-radius: 44.786px;
   background: #ffffff;
+  transition: all 1s;
+}
+#products .pro-cards .pro-card .pro-actions .pro-icon:hover {
+  transition: all 0.3s;
+  background-color: #000000;
+  color: #ffffff;
 }
 #products .pro-cards .pro-card .pro-card-body {
   padding: 10px 25px 25px 25px;
@@ -550,6 +562,10 @@ footer .footer-bottom p {
   align-items: center;
   padding: 25px;
   background-color: #ffffff;
+}
+#comments .comment-card:hover {
+  transition: all 0.5s;
+  transform: translateY(20px);
 }
 #comments .comment-card .card-content {
   padding: 30px;
