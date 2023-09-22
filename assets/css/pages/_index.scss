@@ -409,8 +409,8 @@
     background-color: #ffffff;
 
     &:hover {
-        transition: all .5s;
-        transform : translateY(20px);
+      transition: all 0.5s;
+      transform: translateY(20px);
     }
     .card-content {
       padding: 30px;
