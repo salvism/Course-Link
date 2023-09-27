@@ -15,6 +15,9 @@ footer {
       align-items: center;
       gap: 80px;
 
+      .footer-left{
+        flex-wrap: nowrap;
+      }
       h3 {
         color: #252b42;
         font-size: 18px;

@@ -58,7 +58,6 @@
 
 #packages,
 #courses {
-  height: 750px;
 
   .red-line {
     width: 94px;
@@ -110,9 +109,10 @@
 }
 // courses section end
 
-// products section starr
+// products section start
 #products {
   margin-bottom: 160px;
+  margin-top: 100px;
 
   .pro-cards {
     align-items: flex-start;

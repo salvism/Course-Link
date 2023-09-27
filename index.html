@@ -23,7 +23,7 @@
   <body>
     <!-- header start -->
     <header>
-      <div class="header">
+      <div class="header" id="home">
         <div class="header-top">
           <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light nav navbar-desktop">
@@ -33,18 +33,18 @@
                 <div class="collapse navbar-collapse nav-links" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Product</a>
+                      <a class="nav-link" href="#products">Product</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="nav-link" href="#products">Pricing</a>
                     </li>
                     <li class="nav-item">
                       <a
                         class="nav-link"
-                        href="#"
+                        href="#joinus"
                         tabindex="-1"
                         aria-disabled="true"
                         >Contact</a
@@ -77,10 +77,10 @@
                     <label for="hamburger1"></label>
 
                     <ul class="nav-links">
-                      <li><a href="#">home</a></li>
-                      <li><a href="#">product</a></li>
-                      <li><a href="#">pricing</a></li>
-                      <li><a href="#">contact</a></li>
+                      <li><a href="#home">home</a></li>
+                      <li><a href="#products">product</a></li>
+                      <li><a href="#products">pricing</a></li>
+                      <li><a href="#joinus">contact</a></li>
                     </ul>
                   </nav>
                 </div>
@@ -580,8 +580,8 @@
       <div class="footer-top d-flex justify-content-center align-items-center">
         <div class="container footer">
           <div class="container">
-            <div class="row d-flex flex-nowrap">
-              <div class="col-md-4 ms-5 me-4">
+            <div class="row d-flex footer-left">
+              <div class="col-md-4 ms-5 me-4 mobile-vers">
                 <h3>Get In Touch</h3>
                 <p>the quick fox jums over the lazy dog</p>
                 <div class="social-media d-flex">

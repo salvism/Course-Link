@@ -140,6 +140,9 @@ footer .footer-top .footer {
   align-items: center;
   gap: 80px;
 }
+footer .footer-top .footer .footer-left {
+  flex-wrap: nowrap;
+}
 footer .footer-top .footer h3 {
   color: #252b42;
   font-size: 18px;
@@ -244,10 +247,6 @@ footer .footer-bottom p {
   margin-bottom: 10px;
 }
 
-#packages,
-#courses {
-  height: 750px;
-}
 #packages .red-line,
 #courses .red-line {
   width: 94px;
@@ -296,6 +295,7 @@ footer .footer-bottom p {
 
 #products {
   margin-bottom: 160px;
+  margin-top: 100px;
 }
 #products .pro-cards {
   align-items: flex-start;
@@ -699,7 +699,7 @@ footer .footer-bottom p {
   }
   header .header-bottom .header-img img {
     margin: auto;
-    width: 500px !important;
+    width: 400px !important;
   }
   header .header-bottom .btns .btn-header {
     margin: auto;
@@ -728,6 +728,70 @@ footer .footer-bottom p {
   }
   main #packages .pack-right .card {
     width: 250px;
+  }
+  main #courses .course-img img {
+    margin: auto;
+    width: 400px !important;
+  }
+  main #courses .course-right {
+    display: block !important;
+    margin-left: 10px;
+  }
+  main #products .pro-cards {
+    display: block !important;
+    margin: auto;
+  }
+  main #products .pro-cards .pro-card {
+    margin: auto;
+    margin-bottom: 40px !important;
+    margin-top: 20px;
+  }
+  main #products .pro-cards .pro-card:hover {
+    transition: all 0.5s;
+    width: 350px;
+  }
+  main #products .pro-cards .pro-card:hover .pro-card-img {
+    transition: all 0.5s;
+    width: 350px;
+  }
+  main #products .pro-cards .pro-card:hover .pro-actions {
+    transition: all 0.3s;
+    margin: 206px 100px 2px 100px;
+  }
+  main #comments .comment-card {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  main #joinus {
+    width: auto;
+  }
+  main #joinus .subscribe {
+    width: 100px;
+    margin: auto;
+  }
+  footer .footer-top {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  footer .footer-top .footer .footer-left {
+    flex-wrap: wrap !important;
+  }
+  footer .footer-top .footer .footer-left .mobile-vers {
+    margin-left: 0px !important;
+  }
+  footer .footer-top .footer table {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  footer .footer-top .footer table th {
+    font-size: 12px !important;
+    line-height: 25px !important;
+  }
+  footer .footer-top .footer table td {
+    font-size: 10px !important;
+  }
+  footer .footer-bottom {
+    display: none !important;
   }
 }
 @media (min-width: 992px) {

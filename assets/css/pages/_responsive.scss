@@ -23,7 +23,7 @@
         width: 100%;
         img {
           margin: auto;
-          width: 500px !important;
+          width: 400px !important;
         }
       }
       .btns {
@@ -55,10 +55,95 @@
           margin-left: 50px;
           margin-top: 30px;
         }
-        .card{
-            width: 250px;
+        .card {
+          width: 250px;
         }
       }
+    }
+
+    #courses {
+      .course-img {
+        img {
+          margin: auto;
+          width: 400px !important;
+        }
+      }
+      .course-right {
+        display: block !important;
+        margin-left: 10px;
+      }
+    }
+
+    #products {
+      .pro-cards {
+        display: block !important;
+        margin: auto;
+
+        .pro-card {
+          margin: auto;
+          margin-bottom: 40px !important;
+          margin-top: 20px;
+
+          &:hover {
+            transition: all 0.5s;
+            width: 350px;
+
+            .pro-card-img {
+              transition: all 0.5s;
+              width: 350px;
+            }
+
+            .pro-actions {
+              transition: all 0.3s;
+              margin: 206px 100px 2px 100px;
+            }
+          }
+        }
+      }
+    }
+
+    #comments {
+      .comment-card {
+        margin: auto;
+        margin-bottom: 30px;
+      }
+    }
+
+    #joinus {
+      width: auto;
+      .subscribe {
+        width: 100px;
+        margin: auto;
+      }
+    }
+  }
+  footer {
+    .footer-top {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      .footer {
+        .footer-left {
+          flex-wrap: wrap !important;
+          .mobile-vers {
+            margin-left: 0px !important;
+          }
+        }
+        
+        table {
+          margin-left: 15px;
+          margin-top: 10px;
+          th {
+            font-size: 12px !important;
+            line-height: 25px !important;
+          }
+          td {
+            font-size: 10px !important;
+          }
+        }
+      }
+    }
+    .footer-bottom {
+      display: none !important;
     }
   }
 }
